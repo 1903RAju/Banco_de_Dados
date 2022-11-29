@@ -1,0 +1,4 @@
+SELECT TB02_Cod_cd, TB02_Nome_Completo, TB02_Especialidade, TB02_Setor, TB02_Cor, TB02_Localização
+FROM tb01_funcionarios
+INNER JOIN tb02_cd
+ON tb02_cd.TB02_Cod_cd = tb01_funcionarios.TB01_Cod_Funcionarios;
